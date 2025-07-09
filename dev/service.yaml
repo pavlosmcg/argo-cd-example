@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: nana-app-service
 spec:
+  type: NodePort
   selector:
     app: nana-app
   ports:
